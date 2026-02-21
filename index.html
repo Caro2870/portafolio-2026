@@ -3,74 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caro | Portafolio</title>
+    <title>Caro Dev | Portfolio</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="noise"></div>
-    <nav class="topbar">
-      <strong>Caro Dev</strong>
-      <div class="links">
-        <a href="#proyectos">Proyectos</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
-      </div>
-    </nav>
+    <div class="glow"></div>
+    <div class="grid-overlay"></div>
 
-    <header class="hero">
-      <p class="eyebrow">PORTAFOLIO PRODUCT BUILDER</p>
-      <h1>Creo productos web que sí se usan.</h1>
-      <p class="lead">Diseño y desarrollo soluciones reales para finanzas personales, comercio digital y operaciones simples para negocio.</p>
-      <div class="hero-actions">
-        <a href="https://finanzas.prittor.com">Abrir Finanzas</a>
-        <a href="https://shop.prittor.com">Abrir Tienda</a>
-      </div>
-      <div class="kpis">
-        <div><strong>3</strong><span>Productos en línea</span></div>
-        <div><strong>100%</strong><span>Infra auto desplegada</span></div>
-        <div><strong>1</strong><span>Stack unificado</span></div>
-      </div>
-    </header>
+    <div class="shell">
+      <nav class="topbar">
+        <a class="brand" href="/">Caro Dev</a>
+        <div class="links">
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-    <main>
-      <section id="proyectos" class="grid">
-        <article>
-          <p class="tag">FINTECH</p>
-          <h2>Finanzas Carolina</h2>
-          <p>PWA multi-tenant con control de ingresos, gastos, tarjetas, conciliación e importación de Excel.</p>
-          <a href="https://finanzas.prittor.com">Ir al proyecto</a>
-        </article>
-        <article>
-          <p class="tag">ECOMMERCE</p>
-          <h2>Nails Studio Shop</h2>
-          <p>Landing comercial con catálogo rápido para venta por WhatsApp e Instagram.</p>
-          <a href="https://shop.prittor.com">Ir al proyecto</a>
-        </article>
-        <article>
-          <p class="tag">DEVOPS</p>
-          <h2>Infra & Deploy</h2>
-          <p>Docker, Caddy, TLS automático y CI/CD para publicar cambios con push a main.</p>
-          <a href="#contacto">Implementar algo similar</a>
-        </article>
-      </section>
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">PRODUCT ENGINEER • LIMA, PE</p>
+          <h1>Building digital products that actually ship.</h1>
+          <p>
+            Full-stack developer focused on web apps, business automation and reliable production delivery.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://finanzas.prittor.com">Finanzas App</a>
+            <a class="btn" href="https://shop.prittor.com">Nails Ecommerce</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <p class="small">CURRENT FOCUS</p>
+          <h2>Multi-tenant finance platform</h2>
+          <p>PWA + Node + MySQL + Docker + Caddy + CI/CD</p>
+          <div class="stats">
+            <div><strong>3</strong><span>apps live</span></div>
+            <div><strong>99%</strong><span>uptime goal</span></div>
+            <div><strong>1 click</strong><span>deploy flow</span></div>
+          </div>
+        </aside>
+      </header>
 
-      <section id="servicios" class="panel">
-        <h3>Servicios</h3>
-        <ul>
-          <li>MVP web completo (frontend + backend + base de datos)</li>
-          <li>Automatización de despliegues y dominios con HTTPS</li>
-          <li>Refactor y estabilización de apps existentes</li>
-        </ul>
-      </section>
-
-      <section id="contacto" class="panel contact">
-        <h3>¿Construimos tu próximo producto?</h3>
-        <p>Si ya tienes una idea, te ayudo a convertirla en una app usable y desplegada en producción.</p>
-        <div class="hero-actions">
-          <a href="mailto:caro@prittor.com">caro@prittor.com</a>
-          <a href="https://wa.me/51999999999" target="_blank" rel="noreferrer">WhatsApp</a>
+      <section id="work" class="section">
+        <div class="section-head">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h3>Products in production</h3>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <p class="tag">FINTECH SAAS</p>
+            <h4>Finanzas Carolina</h4>
+            <p>Personal finance platform with tenant-based access, card reconciliation and Excel imports.</p>
+            <a href="https://finanzas.prittor.com">Open project</a>
+          </article>
+          <article class="card">
+            <p class="tag">E-COMMERCE</p>
+            <h4>Nails Studio Shop</h4>
+            <p>Online storefront for beauty products/services with direct conversion to WhatsApp sales.</p>
+            <a href="https://shop.prittor.com">Open project</a>
+          </article>
+          <article class="card">
+            <p class="tag">PORTFOLIO</p>
+            <h4>Multi-domain architecture</h4>
+            <p>Single server setup with independent subdomains, TLS and isolated deploy routes.</p>
+            <a href="#contact">Build yours</a>
+          </article>
         </div>
       </section>
-    </main>
+
+      <section id="skills" class="section split">
+        <article class="panel">
+          <p class="eyebrow">STACK</p>
+          <h3>Tech I use daily</h3>
+          <div class="chips">
+            <span>Vue</span><span>Node.js</span><span>Express</span><span>MySQL</span><span>Prisma</span>
+            <span>Docker</span><span>Caddy</span><span>GitHub Actions</span><span>Nginx</span><span>PWA</span>
+          </div>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">WHAT I DELIVER</p>
+          <h3>From idea to production</h3>
+          <ul>
+            <li>MVP from scratch (frontend + backend + db)</li>
+            <li>Operational deployment with SSL + domains</li>
+            <li>Product iteration based on real usage</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section testimonials">
+        <div class="quote">
+          <p>"Clear code, fast iterations and business-first implementation."</p>
+          <span>Recent collaboration feedback</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <p class="eyebrow">LET'S BUILD</p>
+        <h3>Need a product online fast?</h3>
+        <p>I can help you design, build and launch it with a maintainable setup.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:caro@prittor.com">caro@prittor.com</a>
+          <a class="btn" href="https://wa.me/51999999999" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
