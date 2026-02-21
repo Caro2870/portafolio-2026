@@ -8,29 +8,69 @@
   </head>
   <body>
     <div class="noise"></div>
+    <nav class="topbar">
+      <strong>Caro Dev</strong>
+      <div class="links">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+
     <header class="hero">
-      <p class="eyebrow">PORTAFOLIO</p>
-      <h1>Caro Dev</h1>
-      <p class="lead">Construyo productos digitales útiles: finanzas personales, ecommerce y experiencias web rápidas.</p>
+      <p class="eyebrow">PORTAFOLIO PRODUCT BUILDER</p>
+      <h1>Creo productos web que sí se usan.</h1>
+      <p class="lead">Diseño y desarrollo soluciones reales para finanzas personales, comercio digital y operaciones simples para negocio.</p>
       <div class="hero-actions">
-        <a href="https://finanzas.prittor.com">Ver app de finanzas</a>
-        <a href="https://shop.prittor.com">Ver tienda de uñas</a>
+        <a href="https://finanzas.prittor.com">Abrir Finanzas</a>
+        <a href="https://shop.prittor.com">Abrir Tienda</a>
+      </div>
+      <div class="kpis">
+        <div><strong>3</strong><span>Productos en línea</span></div>
+        <div><strong>100%</strong><span>Infra auto desplegada</span></div>
+        <div><strong>1</strong><span>Stack unificado</span></div>
       </div>
     </header>
 
-    <main class="grid">
-      <article>
-        <h2>Finanzas Carolina</h2>
-        <p>PWA con control de ingresos, gastos, tarjetas, conciliación e importación de Excel.</p>
-      </article>
-      <article>
-        <h2>Ecommerce Nails</h2>
-        <p>Catálogo simple para servicios y productos de uñas, pensado para venta por WhatsApp/Instagram.</p>
-      </article>
-      <article>
-        <h2>Stack</h2>
-        <p>Vue, Node, MySQL, Docker, Caddy y CI/CD con GitHub Actions.</p>
-      </article>
+    <main>
+      <section id="proyectos" class="grid">
+        <article>
+          <p class="tag">FINTECH</p>
+          <h2>Finanzas Carolina</h2>
+          <p>PWA multi-tenant con control de ingresos, gastos, tarjetas, conciliación e importación de Excel.</p>
+          <a href="https://finanzas.prittor.com">Ir al proyecto</a>
+        </article>
+        <article>
+          <p class="tag">ECOMMERCE</p>
+          <h2>Nails Studio Shop</h2>
+          <p>Landing comercial con catálogo rápido para venta por WhatsApp e Instagram.</p>
+          <a href="https://shop.prittor.com">Ir al proyecto</a>
+        </article>
+        <article>
+          <p class="tag">DEVOPS</p>
+          <h2>Infra & Deploy</h2>
+          <p>Docker, Caddy, TLS automático y CI/CD para publicar cambios con push a main.</p>
+          <a href="#contacto">Implementar algo similar</a>
+        </article>
+      </section>
+
+      <section id="servicios" class="panel">
+        <h3>Servicios</h3>
+        <ul>
+          <li>MVP web completo (frontend + backend + base de datos)</li>
+          <li>Automatización de despliegues y dominios con HTTPS</li>
+          <li>Refactor y estabilización de apps existentes</li>
+        </ul>
+      </section>
+
+      <section id="contacto" class="panel contact">
+        <h3>¿Construimos tu próximo producto?</h3>
+        <p>Si ya tienes una idea, te ayudo a convertirla en una app usable y desplegada en producción.</p>
+        <div class="hero-actions">
+          <a href="mailto:caro@prittor.com">caro@prittor.com</a>
+          <a href="https://wa.me/51999999999" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </section>
     </main>
   </body>
-  </html>
+</html>

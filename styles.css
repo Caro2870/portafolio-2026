@@ -3,6 +3,7 @@
   --bg-b: #e8f4ef;
   --ink: #132021;
   --accent: #0b8f75;
+  --accent-dark: #066a56;
   --line: #b9d1c8;
 }
 
@@ -29,6 +30,27 @@ body {
   background-size: 3px 3px;
 }
 
+.topbar {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 22px 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 14px;
+}
+
+.links a {
+  color: #31584f;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 .hero {
   max-width: 920px;
   margin: 0 auto;
@@ -43,7 +65,8 @@ body {
 
 h1 {
   margin: 0;
-  font-size: clamp(40px, 8vw, 80px);
+  max-width: 760px;
+  font-size: clamp(40px, 8vw, 78px);
   line-height: 0.96;
 }
 
@@ -67,10 +90,39 @@ h1 {
   font-weight: 700;
 }
 
+.hero-actions a:hover {
+  background: var(--accent-dark);
+}
+
+.kpis {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 620px;
+}
+
+.kpis div {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.kpis strong {
+  display: block;
+  font-size: 22px;
+}
+
+.kpis span {
+  font-size: 13px;
+  color: #31584f;
+}
+
 .grid {
   max-width: 920px;
   margin: 0 auto;
-  padding: 0 24px 56px;
+  padding: 0 24px 18px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 14px;
@@ -85,4 +137,56 @@ article {
 
 h2 {
   margin: 0 0 6px;
+}
+
+.tag {
+  margin: 0 0 10px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: #3d6a5f;
+}
+
+article a {
+  color: #0a735f;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.panel {
+  max-width: 920px;
+  margin: 0 auto 14px;
+  padding: 20px 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.panel h3 {
+  margin: 0 0 10px;
+  font-size: 26px;
+}
+
+.panel ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.panel li {
+  margin-bottom: 8px;
+}
+
+.contact {
+  margin-bottom: 56px;
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 16px;
+  }
+
+  .kpis {
+    grid-template-columns: 1fr;
+  }
 }
