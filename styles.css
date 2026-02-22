@@ -177,6 +177,32 @@ body {
   margin: 0;
 }
 
+.avatar-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #2b414e;
+  border-radius: 12px;
+  background: rgba(11, 24, 29, 0.7);
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #3b5f70;
+}
+
+.signature {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #b8d2de;
+}
+
 .hero-card h2 {
   margin: 10px 0;
   font-size: 27px;

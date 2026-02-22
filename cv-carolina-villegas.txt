@@ -1,0 +1,51 @@
+Carolina Villegas
+Full Stack Engineer
+Peru
+Email: carol.vi28@gmail.com
+GitHub: https://github.com/Caro2870
+
+Professional Summary
+Full Stack Engineer with 5 years of production experience building scalable systems across backend, frontend, cloud infrastructure and AI integration.
+
+Specialization
+- Full Stack Development
+- Backend Engineering
+- Cloud Architecture
+- AI Integration
+- System Design
+
+Experience
+Visma Latam — Senior Full Stack Engineer (2024 — Present)
+- Serverless architectures for HR metrics processing
+- Generative AI integration in enterprise platforms
+- Redshift migration and backend performance optimization
+
+Interfell — Backend Engineer (2025 — Present)
+- Symfony monolith to Node.js microservices migration
+- DDD + Hexagonal architecture implementation
+- API development and logging SDK design
+
+AMG — Full Stack Developer / Project Lead (2021 — 2023)
+- Led team of 10 engineers
+- ERP modernization and modular architecture migration
+- Real-time systems and backend API development
+
+La Confraternidad del Tenis — Full Stack Developer (2024 — Present)
+- End-to-end architecture and implementation
+- Database optimization and CI/CD setup
+- Production deployment and platform operations
+
+Technical Stack
+Backend: Node.js, NestJS, Express, PHP, Laravel
+Frontend: Angular, React, Vue, JavaScript, TypeScript
+Mobile: Flutter
+Databases: MySQL, PostgreSQL, MongoDB, Redis, Aurora, Redshift
+Cloud: AWS (Lambda, S3, SQS, SNS, EventBridge, EC2, RDS, CloudWatch, IAM), Azure OpenAI
+Architecture: Microservices, Serverless, DDD, Hexagonal, Event-driven
+DevOps: Docker, CI/CD, Monitoring, Deployment pipelines
+
+Achievements
+- Published research paper at CISCI 2024
+- Led engineering teams
+- Integrated AI in production systems
+- Migrated legacy systems to scalable architectures

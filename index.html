@@ -9,9 +9,12 @@
     <meta property="og:description" content="Building scalable products with backend, cloud and AI." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.prittor.com/" />
+    <meta property="og:image" content="https://www.prittor.com/og-image.svg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Carolina Villegas | Full Stack Engineer" />
     <meta name="twitter:description" content="Production systems, cloud architecture and AI-enabled products." />
+    <meta name="twitter:image" content="https://www.prittor.com/og-image.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -25,8 +28,10 @@
           <a href="#work" data-i18n="nav.work">Work</a>
           <a href="#experience" data-i18n="nav.experience">Experience</a>
           <a href="#skills" data-i18n="nav.skills">Skills</a>
+          <a href="#repos" data-i18n="nav.repos">Repos</a>
           <a href="#contact" data-i18n="nav.contact">Contact</a>
           <a href="https://github.com/Caro2870" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/carolina-villegas/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
         <div class="lang-switch" role="group" aria-label="Language selector">
           <button type="button" class="lang-btn" data-lang="es">ES</button>
@@ -50,9 +55,22 @@
           <div class="hero-actions">
             <a class="btn primary" href="https://finanzas.prittor.com" data-i18n="hero.ctaFinanzas">Finanzas App</a>
             <a class="btn" href="https://shop.prittor.com" data-i18n="hero.ctaShop">Nails Ecommerce</a>
+            <a class="btn" href="/cv-carolina-villegas.txt" download data-i18n="hero.ctaCv">Download CV</a>
           </div>
         </div>
         <aside class="hero-card">
+          <div class="avatar-block">
+            <img
+              class="avatar"
+              src="https://avatars.githubusercontent.com/u/55043767?v=4"
+              alt="Carolina Villegas"
+              loading="lazy"
+            />
+            <div>
+              <p class="small" data-i18n="profile.signatureLabel">ENGINEERING STYLE</p>
+              <p class="signature" data-i18n="profile.signature">Build real systems that solve real business problems.</p>
+            </div>
+          </div>
           <p class="small" data-i18n="profile.label">PROFILE</p>
           <h2 data-i18n="profile.title">Senior-leaning Full Stack Engineer</h2>
           <p data-i18n="profile.body">Backend Engineering, Cloud Architecture, AI Integration, System Design.</p>
@@ -102,8 +120,9 @@
             <h4 data-i18n="cases.one.title">HR Metrics Pipeline</h4>
             <p data-i18n="cases.one.body">Designed event-driven pipeline for enterprise HR insights and faster reporting cycles.</p>
             <ul class="mini-kpis">
-              <li data-i18n="cases.one.kpi1">-70% reporting latency</li>
-              <li data-i18n="cases.one.kpi2">Near real-time metrics</li>
+              <li data-i18n="cases.one.kpi1">Problem: delayed reporting and low visibility.</li>
+              <li data-i18n="cases.one.kpi2">Action: serverless + event-driven architecture on AWS.</li>
+              <li data-i18n="cases.one.kpi3">Result: -70% reporting latency and near real-time insights.</li>
             </ul>
           </article>
           <article class="card">
@@ -111,8 +130,9 @@
             <h4 data-i18n="cases.two.title">Symfony Migration</h4>
             <p data-i18n="cases.two.body">Migration to Node.js services with DDD + Hexagonal architecture and shared logging SDK.</p>
             <ul class="mini-kpis">
-              <li data-i18n="cases.two.kpi1">Lower deploy risk</li>
-              <li data-i18n="cases.two.kpi2">Faster feature delivery</li>
+              <li data-i18n="cases.two.kpi1">Problem: monolith bottlenecks and risky deployments.</li>
+              <li data-i18n="cases.two.kpi2">Action: service split with DDD + Hexagonal design.</li>
+              <li data-i18n="cases.two.kpi3">Result: faster delivery cycles and lower deploy risk.</li>
             </ul>
           </article>
           <article class="card">
@@ -120,8 +140,9 @@
             <h4 data-i18n="cases.three.title">Production AI Features</h4>
             <p data-i18n="cases.three.body">Integrated generative AI into enterprise workflows with guardrails and practical business use.</p>
             <ul class="mini-kpis">
-              <li data-i18n="cases.three.kpi1">Improved team productivity</li>
-              <li data-i18n="cases.three.kpi2">Operational automation</li>
+              <li data-i18n="cases.three.kpi1">Problem: repetitive manual tasks in operations.</li>
+              <li data-i18n="cases.three.kpi2">Action: AI assistants with guardrails + prompt strategy.</li>
+              <li data-i18n="cases.three.kpi3">Result: measurable productivity gains and automation.</li>
             </ul>
           </article>
         </div>
@@ -239,7 +260,8 @@
           Available for senior full-stack, backend architecture and cloud + AI integrations.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="mailto:caro@prittor.com">caro@prittor.com</a>
+          <a class="btn primary" href="mailto:carol.vi28@gmail.com">carol.vi28@gmail.com</a>
+          <a class="btn" href="/cv-carolina-villegas.txt" download data-i18n="contact.cv">Download CV</a>
           <a class="btn" href="https://github.com/Caro2870" target="_blank" rel="noreferrer">GitHub</a>
           <a class="btn" href="https://wa.me/51920236307?text=Hola%20Carolina%2C%20vi%20tu%20portafolio%20y%20quisiera%20hablar%20de%20un%20proyecto." target="_blank" rel="noreferrer">WhatsApp</a>
         </div>

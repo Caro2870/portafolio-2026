@@ -3,5 +3,10 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html /usr/share/nginx/html/index.html
 COPY styles.css /usr/share/nginx/html/styles.css
 COPY script.js /usr/share/nginx/html/script.js
+COPY robots.txt /usr/share/nginx/html/robots.txt
+COPY sitemap.xml /usr/share/nginx/html/sitemap.xml
+COPY og-image.svg /usr/share/nginx/html/og-image.svg
+COPY favicon.svg /usr/share/nginx/html/favicon.svg
+COPY cv-carolina-villegas.txt /usr/share/nginx/html/cv-carolina-villegas.txt
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
