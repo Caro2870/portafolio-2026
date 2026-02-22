@@ -189,11 +189,13 @@ body {
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
   border-radius: 50%;
   display: block;
   object-fit: cover;
+  object-position: center 28%;
   border: 1px solid #3b5f70;
 }
 
@@ -459,6 +461,10 @@ li {
   .chips span {
     font-size: 12px;
   }
+
+  .avatar-block {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 520px) {
@@ -500,6 +506,18 @@ li {
 
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .avatar-block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
   }
 
   .section-head h3,
