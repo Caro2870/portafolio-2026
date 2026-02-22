@@ -215,6 +215,23 @@ body {
   margin-top: 20px;
 }
 
+.cta-banner {
+  margin-top: 14px;
+  border: 1px solid #2d4658;
+  border-radius: 16px;
+  background: linear-gradient(120deg, rgba(29, 48, 60, 0.92), rgba(18, 37, 42, 0.92));
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cta-banner p {
+  margin: 0;
+  color: #c2d7e2;
+}
+
 .section-head h3,
 .panel h3,
 .contact h3 {
@@ -262,6 +279,17 @@ body {
   color: #8ee5cb;
   text-decoration: none;
   font-weight: 700;
+}
+
+.mini-kpis {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.mini-kpis li {
+  margin-bottom: 4px;
+  color: #b7d1df;
+  font-size: 13px;
 }
 
 .split {
@@ -335,6 +363,11 @@ li {
   margin: 10px 0 0;
 }
 
+.contact .subline {
+  font-size: 13px;
+  color: #88a9bb;
+}
+
 @media (max-width: 960px) {
   .shell {
     padding: 14px 16px 42px;
@@ -388,6 +421,11 @@ li {
     font-size: 16px;
   }
 
+  .cta-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -428,6 +466,10 @@ li {
   .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .cta-banner .btn {
+    width: 100%;
   }
 
   .stats {
