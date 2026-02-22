@@ -34,6 +34,7 @@ body {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(38, 196, 154, 0.18), transparent 65%);
   pointer-events: none;
+  animation: glowFloat 9s ease-in-out infinite;
 }
 
 .grid-overlay {
@@ -50,6 +51,18 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   padding: 18px 20px 56px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px) scale(0.985);
+  transition: opacity 680ms cubic-bezier(0.22, 1, 0.36, 1), transform 680ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 .topbar {
@@ -77,6 +90,11 @@ body {
   color: var(--muted);
   text-decoration: none;
   font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #bfe0ef;
 }
 
 .lang-switch {
@@ -253,6 +271,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  backdrop-filter: blur(6px);
 }
 
 .cta-banner p {
@@ -284,6 +303,13 @@ body {
   border-radius: 18px;
   padding: 16px;
   background: rgba(17, 26, 32, 0.88);
+  transition: transform 220ms ease, border-color 220ms ease, background-color 220ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #335469;
+  background: rgba(20, 31, 38, 0.95);
 }
 
 .tag {
@@ -396,6 +422,16 @@ li {
   color: #88a9bb;
 }
 
+@keyframes glowFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(16px, 10px, 0);
+  }
+}
+
 @media (max-width: 960px) {
   .shell {
     padding: 14px 16px 42px;
@@ -421,6 +457,18 @@ li {
   .panel h3,
   .contact h3 {
     font-size: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .glow {
+    animation: none;
   }
 }
 
