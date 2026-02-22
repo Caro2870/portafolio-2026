@@ -195,6 +195,11 @@ body {
   font-size: 32px;
 }
 
+.section h4 {
+  margin: 8px 0 8px;
+  font-size: 22px;
+}
+
 .cards {
   margin-top: 14px;
   display: grid;
@@ -236,6 +241,20 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+}
+
+.timeline {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.timeline-meta {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: #7ea9be;
 }
 
 .panel,
@@ -292,7 +311,8 @@ li {
 @media (max-width: 960px) {
   .hero,
   .cards,
-  .split {
+  .split,
+  .timeline {
     grid-template-columns: 1fr;
   }
 }
