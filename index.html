@@ -20,7 +20,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body>
+  <body data-lang="es">
     <main>
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
@@ -34,7 +34,8 @@
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
-            <span>Mostrar contacto</span>
+            <span class="lang-inline lang-es">Mostrar contacto</span>
+            <span class="lang-inline lang-en">Show contacts</span>
           </button>
         </div>
 
@@ -46,7 +47,10 @@
               <div class="icon-box">CV</div>
               <div class="contact-info">
                 <p class="contact-title">Resume</p>
-                <a href="/cv-carolina-villegas.txt" class="contact-link" download>Descargar CV</a>
+                <a href="/cv-carolina-villegas.txt" class="contact-link" download>
+                  <span class="lang-inline lang-es">Descargar CV</span>
+                  <span class="lang-inline lang-en">Download Resume</span>
+                </a>
               </div>
             </li>
 
@@ -54,7 +58,7 @@
               <div class="icon-box">@</div>
               <div class="contact-info">
                 <p class="contact-title">Email</p>
-                <a href="mailto:carol.vi28@gmail.com" class="contact-link">carol.vi28@gmail.com</a>
+                <a href="mailto:carolina.villegas@email.com" class="contact-link">carolina.villegas@email.com</a>
               </div>
             </li>
 
@@ -69,7 +73,10 @@
             <li class="contact-item">
               <div class="icon-box">PE</div>
               <div class="contact-info">
-                <p class="contact-title">Ubicación</p>
+                <p class="contact-title">
+                  <span class="lang-inline lang-es">Ubicación</span>
+                  <span class="lang-inline lang-en">Location</span>
+                </p>
                 <address>Lima, Perú</address>
               </div>
             </li>
@@ -78,7 +85,10 @@
               <div class="icon-box">in</div>
               <div class="contact-info">
                 <p class="contact-title">LinkedIn</p>
-                <a href="https://www.linkedin.com/in/carolina-villegas/" class="contact-link" target="_blank" rel="noreferrer">Ver perfil</a>
+                <a href="https://www.linkedin.com/in/carolina-villegas/" class="contact-link" target="_blank" rel="noreferrer">
+                  <span class="lang-inline lang-es">Ver perfil</span>
+                  <span class="lang-inline lang-en">Open profile</span>
+                </a>
               </div>
             </li>
 
@@ -96,29 +106,35 @@
       <div class="main-content">
         <nav class="navbar">
           <ul class="navbar-list">
-            <li class="navbar-item"><button class="navbar-link active" data-nav-link="about">About</button></li>
-            <li class="navbar-item"><button class="navbar-link" data-nav-link="resume">Resume</button></li>
-            <li class="navbar-item"><button class="navbar-link" data-nav-link="projects">Projects</button></li>
-            <li class="navbar-item"><button class="navbar-link" data-nav-link="contact">Contact</button></li>
+            <li class="navbar-item"><button class="navbar-link active" data-nav-link="about"><span class="lang-inline lang-es">Sobre mí</span><span class="lang-inline lang-en">About</span></button></li>
+            <li class="navbar-item"><button class="navbar-link" data-nav-link="resume"><span class="lang-inline lang-es">Resume</span><span class="lang-inline lang-en">Resume</span></button></li>
+            <li class="navbar-item"><button class="navbar-link" data-nav-link="projects"><span class="lang-inline lang-es">Proyectos</span><span class="lang-inline lang-en">Projects</span></button></li>
+            <li class="navbar-item"><button class="navbar-link" data-nav-link="contact"><span class="lang-inline lang-es">Contacto</span><span class="lang-inline lang-en">Contact</span></button></li>
             <li class="navbar-item"><button class="navbar-link" id="themeToggle">Theme: Dark</button></li>
+            <li class="navbar-item lang-switch"><button class="navbar-link lang-btn active" data-lang-btn="es">ES</button></li>
+            <li class="navbar-item lang-switch"><button class="navbar-link lang-btn" data-lang-btn="en">EN</button></li>
           </ul>
         </nav>
 
         <article class="about active" data-page="about">
-          <header><h2 class="h2 article-title">Perfil Profesional</h2></header>
+          <header>
+            <h2 class="h2 article-title"><span class="lang-inline lang-es">Perfil Profesional</span><span class="lang-inline lang-en">Professional Profile</span></h2>
+          </header>
+
           <section class="about-text">
-            <p>
-              Ingeniera de Software con más de 5 años de experiencia diseñando y construyendo soluciones Full Stack escalables en producción.
-              Especializada en modernización de sistemas legacy, arquitecturas distribuidas, cloud computing e integración de Inteligencia Artificial.
-            </p>
-            <p>
-              He liderado proyectos end-to-end con impacto real en negocio, optimizando rendimiento, seguridad y escalabilidad.
-            </p>
+            <div class="lang-block lang-es">
+              <p>Ingeniera de Software con más de 5 años de experiencia diseñando y construyendo soluciones Full Stack escalables en producción. Especializada en modernización de sistemas legacy, arquitecturas distribuidas, cloud computing e integración de Inteligencia Artificial.</p>
+              <p>He liderado proyectos end-to-end con impacto real en negocio, optimizando rendimiento, seguridad y escalabilidad.</p>
+            </div>
+            <div class="lang-block lang-en">
+              <p>Software Engineer with 5+ years of experience designing and building scalable Full Stack solutions in production. Specialized in legacy modernization, distributed architectures, cloud computing and AI integration.</p>
+              <p>I have led end-to-end projects with real business impact, optimizing performance, security and scalability.</p>
+            </div>
           </section>
 
           <section class="service">
-            <h3 class="h3 service-title">Especialización</h3>
-            <ul class="service-list">
+            <h3 class="h3 service-title"><span class="lang-inline lang-es">Especialización</span><span class="lang-inline lang-en">What I'm Doing</span></h3>
+            <ul class="service-list stagger">
               <li class="service-item"><h4 class="h4 service-item-title">Backend Engineering</h4><p class="service-item-text">Node.js, NestJS, Express, Laravel, diseño API y performance.</p></li>
               <li class="service-item"><h4 class="h4 service-item-title">Cloud Architecture</h4><p class="service-item-text">AWS/Azure, observabilidad, resiliencia y operaciones productivas.</p></li>
               <li class="service-item"><h4 class="h4 service-item-title">AI Integration</h4><p class="service-item-text">Integraciones GPT, few-shot learning y automatización inteligente.</p></li>
@@ -128,56 +144,64 @@
         </article>
 
         <article class="resume" data-page="resume">
-          <header><h2 class="h2 article-title">Experiencia Profesional</h2></header>
+          <header><h2 class="h2 article-title">Resume</h2></header>
 
           <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">Visma Latam — Senior Full Stack Engineer (2024–Actualidad)</h3></div>
-            <ol class="timeline-list">
-              <li class="timeline-item"><p class="timeline-text">Desarrollo de sistema de planes de acción personalizados usando IA (GPT-3.5 Turbo y GPT-4o-mini) con few-shot learning alojado en Azure.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Implementación Full Stack con React, Laravel y MySQL.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Sistema de notificaciones en tiempo real mediante WebSockets.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Optimización backend: refactorización de queries, índices y algoritmos.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Implementación de Redis para caching de datos críticos.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Migración de datos a Amazon Redshift separando workloads de lectura y escritura.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Desarrollo de red social corporativa (Angular + NestJS + AWS).</p></li>
-              <li class="timeline-item"><p class="timeline-text">Integración segura de plataforma externa mediante iframe + validación de tokens + comunicación padre-hijo.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Migración de plataforma legacy a microfrontends (Angular) con autenticación cross-platform.</p></li>
+            <div class="title-wrapper"><h3 class="h3"><span class="lang-inline lang-es">Educación</span><span class="lang-inline lang-en">Education</span></h3></div>
+            <ol class="timeline-list stagger">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title"><span class="lang-inline lang-es">Bachiller en Ingeniería de Software</span><span class="lang-inline lang-en">Bachelor's Degree in Software Engineering</span></h4>
+                <p class="timeline-text">CISCI 2024 — <span class="lang-inline lang-es">Coautora del paper</span><span class="lang-inline lang-en">Co-author of paper</span>: "Application of the Few-Shot Learning Method to GPT-3.5"</p>
+              </li>
             </ol>
           </section>
 
           <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">Interfell — Backend Engineer (Contractor)</h3></div>
-            <ol class="timeline-list">
-              <li class="timeline-item"><p class="timeline-text">Migración de monolito Symfony a arquitectura de microservicios en Node.js.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Implementación de Arquitectura Hexagonal y DDD.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Desarrollo de SDK interno para logging.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Integraciones cloud (AWS S3, IAM).</p></li>
+            <div class="title-wrapper"><h3 class="h3"><span class="lang-inline lang-es">Experiencia Profesional</span><span class="lang-inline lang-en">Experience</span></h3></div>
+            <ol class="timeline-list stagger">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Visma Latam</h4>
+                <span>Senior Full Stack Engineer · 2024 — <span class="lang-inline lang-es">Actualidad</span><span class="lang-inline lang-en">Present</span></span>
+                <p class="timeline-text">- Sistema de planes de acción con IA (GPT-3.5 Turbo / GPT-4o-mini) con few-shot en Azure.</p>
+                <p class="timeline-text">- Implementación Full Stack con React, Laravel, MySQL y WebSockets.</p>
+                <p class="timeline-text">- Optimización backend (queries, índices, algoritmos) + caching con Redis.</p>
+                <p class="timeline-text">- Migración analítica a Amazon Redshift separando lectura/escritura.</p>
+                <p class="timeline-text">- Red social corporativa (Angular + NestJS + AWS).</p>
+                <p class="timeline-text">- Integraciones seguras vía iframe + validación de tokens + comunicación padre-hijo.</p>
+                <p class="timeline-text">- Migración legacy a microfrontends con autenticación cross-platform.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Interfell</h4>
+                <span>Backend Engineer (Contractor)</span>
+                <p class="timeline-text">- Migración de monolito Symfony a microservicios en Node.js.</p>
+                <p class="timeline-text">- Implementación de Arquitectura Hexagonal + DDD.</p>
+                <p class="timeline-text">- SDK interno para logging e integraciones cloud (S3, IAM).</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AMG</h4>
+                <span>Full Stack Developer / Technical Lead · 2021 — 2023</span>
+                <p class="timeline-text">- Liderazgo técnico de equipo de 10 desarrolladores.</p>
+                <p class="timeline-text">- Migración monolito a arquitectura desacoplada y ERP modular.</p>
+                <p class="timeline-text">- Asistencia en tiempo real con WebSockets + app Flutter con QR.</p>
+                <p class="timeline-text">- Tickets con chat en tiempo real + backend intensivo Node.js/Laravel.</p>
+                <p class="timeline-text">- Infraestructura AWS: EC2, RDS, CloudWatch.</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">La Confraternidad del Tenis</h4>
+                <span>Full Stack Developer (Freelance)</span>
+                <p class="timeline-text">- Plataforma completa para gestión de torneos de tenis.</p>
+                <p class="timeline-text">- Arquitectura full-stack, base de datos optimizada y gestión de resultados.</p>
+                <p class="timeline-text">- Deployment productivo y pipeline CI/CD.</p>
+              </li>
             </ol>
           </section>
 
           <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">AMG — Full Stack Developer / Technical Lead (2021–2023)</h3></div>
-            <ol class="timeline-list">
-              <li class="timeline-item"><p class="timeline-text">Liderazgo técnico de equipo de 10 desarrolladores.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Migración de sistema monolítico a arquitectura desacoplada y desarrollo de ERP modular.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Sistema de asistencia en tiempo real con WebSockets y app móvil Flutter con QR.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Plataforma de tickets con chat en tiempo real y backend intensivo con Node.js + Laravel.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Infraestructura cloud en AWS (EC2, RDS, CloudWatch).</p></li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">La Confraternidad del Tenis — Full Stack Developer (Freelance)</h3></div>
-            <ol class="timeline-list">
-              <li class="timeline-item"><p class="timeline-text">Desarrollo completo de plataforma para gestión de torneos de tenis.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Arquitectura full-stack, base de datos optimizada y gestión de resultados.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Deployment productivo y pipeline CI/CD.</p></li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">Tecnologías</h3></div>
-            <ol class="timeline-list">
+            <div class="title-wrapper"><h3 class="h3"><span class="lang-inline lang-es">Tecnologías</span><span class="lang-inline lang-en">Technical Skills</span></h3></div>
+            <ol class="timeline-list stagger">
               <li class="timeline-item"><p class="timeline-text"><strong>Backend:</strong> Node.js, NestJS, Express, PHP, Laravel</p></li>
               <li class="timeline-item"><p class="timeline-text"><strong>Frontend:</strong> Angular, React, Vue, TypeScript</p></li>
               <li class="timeline-item"><p class="timeline-text"><strong>Mobile:</strong> Flutter</p></li>
@@ -189,17 +213,17 @@
           </section>
 
           <section class="timeline">
-            <div class="title-wrapper"><h3 class="h3">Educación</h3></div>
-            <ol class="timeline-list">
-              <li class="timeline-item"><p class="timeline-text">Bachiller en Ingeniería de Software.</p></li>
-              <li class="timeline-item"><p class="timeline-text">Coautora del paper: "Application of the Few-Shot Learning Method to GPT-3.5" — CISCI 2024.</p></li>
+            <div class="title-wrapper"><h3 class="h3"><span class="lang-inline lang-es">Logros</span><span class="lang-inline lang-en">Achievements</span></h3></div>
+            <ol class="timeline-list stagger">
+              <li class="timeline-item"><p class="timeline-text">CISCI 2024 — publicación académica sobre Few-shot Learning con GPT-3.5.</p></li>
+              <li class="timeline-item"><p class="timeline-text">Liderazgo de equipos técnicos y modernización de sistemas críticos en producción.</p></li>
+              <li class="timeline-item"><p class="timeline-text">Integraciones de IA y cloud en plataformas empresariales con foco en seguridad y performance.</p></li>
             </ol>
           </section>
         </article>
 
         <article class="portfolio" data-page="projects">
           <header><h2 class="h2 article-title">Projects</h2></header>
-
           <section class="projects">
             <ul class="filter-list">
               <li class="filter-item"><button class="active" data-filter-btn data-filter="all">All</button></li>
@@ -208,32 +232,32 @@
               <li class="filter-item"><button data-filter-btn data-filter="ai">AI</button></li>
             </ul>
 
-            <ul class="project-list">
+            <ul class="project-list stagger">
               <li class="project-item active" data-filter-item data-category="fullstack cloud">
                 <a href="https://finanzas.prittor.com" target="_blank" rel="noreferrer">
                   <h3 class="project-title">Finanzas Platform</h3>
-                  <p class="project-category">Multi-tenant app, reconciliación, imports, CI/CD</p>
+                  <p class="project-category">Multi-tenant app, conciliación, imports, CI/CD</p>
                 </a>
               </li>
 
               <li class="project-item active" data-filter-item data-category="fullstack">
                 <a href="https://shop.prittor.com" target="_blank" rel="noreferrer">
                   <h3 class="project-title">Nails Ecommerce</h3>
-                  <p class="project-category">Ecommerce enfocado en conversión</p>
+                  <p class="project-category">Ecommerce enfocado en conversión y UX.</p>
                 </a>
               </li>
 
               <li class="project-item active" data-filter-item data-category="cloud ai">
                 <a href="https://github.com/Caro2870/finanzas" target="_blank" rel="noreferrer">
-                  <h3 class="project-title">CI/CD & Infra</h3>
-                  <p class="project-category">Docker, GitHub Actions, Caddy, despliegue productivo</p>
+                  <h3 class="project-title">CI/CD + Infra</h3>
+                  <p class="project-category">Docker, GitHub Actions, Caddy, despliegue productivo.</p>
                 </a>
               </li>
 
               <li class="project-item active" data-filter-item data-category="ai">
                 <a href="https://github.com/Caro2870" target="_blank" rel="noreferrer">
                   <h3 class="project-title">AI Integrations</h3>
-                  <p class="project-category">GPT integrations, few-shot workflows, secure enterprise usage</p>
+                  <p class="project-category">GPT integrations, few-shot workflows, secure enterprise usage.</p>
                 </a>
               </li>
             </ul>
@@ -241,16 +265,19 @@
         </article>
 
         <article class="contact" data-page="contact">
-          <header><h2 class="h2 article-title">Contacto</h2></header>
+          <header><h2 class="h2 article-title"><span class="lang-inline lang-es">Contacto</span><span class="lang-inline lang-en">Contact</span></h2></header>
 
           <section class="contact-info-section">
             <h3 class="h3 form-title">Get in Touch</h3>
-            <p class="contact-text">Disponible para roles senior, consultoría de arquitectura y colaboraciones freelance.</p>
+            <p class="contact-text">
+              <span class="lang-inline lang-es">Disponible para roles senior, consultoría de arquitectura y colaboraciones freelance.</span>
+              <span class="lang-inline lang-en">Open to senior roles, architecture consulting and high-impact freelance collaborations.</span>
+            </p>
 
             <ul class="contact-list-direct">
-              <li class="contact-item-direct"><div class="icon-box">@</div><div class="contact-info"><p class="contact-title">Email</p><a href="mailto:carol.vi28@gmail.com" class="contact-link">carol.vi28@gmail.com</a></div></li>
+              <li class="contact-item-direct"><div class="icon-box">@</div><div class="contact-info"><p class="contact-title">Email</p><a href="mailto:carolina.villegas@email.com" class="contact-link">carolina.villegas@email.com</a></div></li>
               <li class="contact-item-direct"><div class="icon-box">WA</div><div class="contact-info"><p class="contact-title">Phone</p><a href="https://wa.me/51920236307" class="contact-link" target="_blank" rel="noreferrer">+51 920 236 307</a></div></li>
-              <li class="contact-item-direct"><div class="icon-box">PE</div><div class="contact-info"><p class="contact-title">Location</p><address>Lima, Perú</address></div></li>
+              <li class="contact-item-direct"><div class="icon-box">PE</div><div class="contact-info"><p class="contact-title"><span class="lang-inline lang-es">Ubicación</span><span class="lang-inline lang-en">Location</span></p><address>Lima, Perú</address></div></li>
             </ul>
 
             <div class="separator"></div>
