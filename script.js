@@ -98,12 +98,13 @@ function applyLang(lang, withUrl = false) {
 }
 
 function setupTabs() {
-  const buttons = document.querySelectorAll(".tab-btn");
+  const buttons = document.querySelectorAll(".tab-btn[data-tab]");
   const panels = document.querySelectorAll(".tab-panel");
 
   buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const target = btn.getAttribute("data-tab");
+      if (!target) return;
       buttons.forEach((b) => b.classList.remove("active"));
       panels.forEach((p) => p.classList.remove("active"));
       btn.classList.add("active");
