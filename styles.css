@@ -308,7 +308,8 @@ p {
 
 .feature-grid,
 .project-grid,
-.contact-grid {
+.contact-grid,
+.stack-grid {
   margin-top: 14px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -318,7 +319,8 @@ p {
 .feature-grid > div,
 .project-card,
 .job,
-.contact-grid a {
+.contact-grid a,
+.stack-card {
   border: 1px solid var(--line);
   border-radius: 14px;
   background: linear-gradient(165deg, rgba(19, 27, 42, 0.86), rgba(12, 18, 31, 0.88));
@@ -328,13 +330,15 @@ p {
 body[data-theme="light"] .feature-grid > div,
 body[data-theme="light"] .project-card,
 body[data-theme="light"] .job,
-body[data-theme="light"] .contact-grid a {
+body[data-theme="light"] .contact-grid a,
+body[data-theme="light"] .stack-card {
   background: linear-gradient(165deg, #ffffff, #f7faff);
 }
 
 .feature-grid h3,
 .project-card h3,
-.job h3 {
+.job h3,
+.stack-card h3 {
   margin: 0 0 8px;
   font-size: 23px;
 }
@@ -349,6 +353,45 @@ body[data-theme="light"] .contact-grid a {
 .timeline {
   display: grid;
   gap: 12px;
+}
+
+.detail-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.detail-list li::marker {
+  color: var(--accent);
+}
+
+.detail-list.compact {
+  gap: 6px;
+  font-size: 14px;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  border: 1px solid var(--line-soft);
+  background: rgba(17, 24, 38, 0.72);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+body[data-theme="light"] .chip {
+  background: rgba(202, 154, 16, 0.1);
 }
 
 .meta {
@@ -469,7 +512,8 @@ body[data-theme="light"] .primary-link:hover {
 
   .feature-grid,
   .project-grid,
-  .contact-grid {
+  .contact-grid,
+  .stack-grid {
     grid-template-columns: 1fr;
   }
 

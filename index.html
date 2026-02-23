@@ -87,80 +87,159 @@
         </header>
 
         <article class="tab-panel active" data-panel="about">
-          <h2 data-i18n="about.title">About Me</h2>
-          <p data-i18n="about.p1">
-            Software Engineer with 5+ years of experience building scalable full-stack solutions in production.
+          <h2 data-i18n="about.title">Sobre mí</h2>
+          <p>
+            Ingeniera de Software con más de 5 años de experiencia diseñando y construyendo soluciones Full Stack escalables en producción.
+            Especializada en modernización de sistemas legacy, arquitecturas distribuidas, cloud computing e integración de Inteligencia Artificial.
           </p>
-          <p data-i18n="about.p2">
-            Specialized in legacy modernization, distributed architectures, cloud computing and AI integration with real business impact.
+          <p>
+            He liderado proyectos end-to-end con impacto real en negocio, optimizando rendimiento, seguridad y escalabilidad.
           </p>
-          <div class="feature-grid">
-            <div>
-              <h3 data-i18n="about.f1t">Backend Engineering</h3>
-              <p data-i18n="about.f1d">APIs, distributed systems, performance and maintainable services.</p>
+          <div class="stack-grid">
+            <div class="stack-card">
+              <h3>Especialidades</h3>
+              <div class="chip-row">
+                <span class="chip">Full Stack Development</span>
+                <span class="chip">Backend Engineering</span>
+                <span class="chip">Cloud Architecture</span>
+                <span class="chip">AI Integration</span>
+                <span class="chip">System Design</span>
+              </div>
             </div>
-            <div>
-              <h3 data-i18n="about.f2t">Cloud + DevOps</h3>
-              <p data-i18n="about.f2d">AWS/Azure deployments, CI/CD and reliable operations in production.</p>
+            <div class="stack-card">
+              <h3>Tecnologías Clave</h3>
+              <div class="chip-row">
+                <span class="chip">Node.js</span>
+                <span class="chip">NestJS</span>
+                <span class="chip">Laravel</span>
+                <span class="chip">React</span>
+                <span class="chip">Angular</span>
+                <span class="chip">AWS</span>
+                <span class="chip">Azure</span>
+                <span class="chip">Redis</span>
+                <span class="chip">Redshift</span>
+                <span class="chip">MySQL</span>
+              </div>
             </div>
           </div>
         </article>
 
         <article class="tab-panel" data-panel="resume">
-          <h2 data-i18n="resume.title">Resume</h2>
+          <h2 data-i18n="resume.title">Experiencia</h2>
           <div class="timeline">
             <div class="job">
               <h3>Visma Latam</h3>
-              <p class="meta" data-i18n="resume.vismaMeta">Senior Full Stack Engineer · 2024 — Present</p>
-              <p data-i18n="resume.visma">Designed AI-driven action plans (GPT-3.5/GPT-4o-mini), optimized backend with Redis and query tuning, and migrated analytics workloads to Redshift.</p>
+              <p class="meta">Senior Full Stack Engineer · 2024 — Actualidad</p>
+              <ul class="detail-list">
+                <li>Sistema de planes de acción con IA (GPT-3.5 Turbo y GPT-4o-mini) con few-shot learning sobre Azure.</li>
+                <li>Implementación Full Stack con React, Laravel y MySQL.</li>
+                <li>Notificaciones en tiempo real con WebSockets.</li>
+                <li>Optimización backend con refactorización de queries, índices y algoritmos.</li>
+                <li>Implementación de Redis para caching de datos críticos.</li>
+                <li>Migración de datos a Amazon Redshift separando workloads de lectura y escritura.</li>
+                <li>Red social corporativa con Angular + NestJS + AWS.</li>
+                <li>Integración segura de plataforma externa vía iframe + token validation + comunicación padre-hijo.</li>
+                <li>Migración de legacy a microfrontends con autenticación cross-platform.</li>
+              </ul>
             </div>
+
             <div class="job">
               <h3>Interfell</h3>
-              <p class="meta" data-i18n="resume.interfellMeta">Backend Engineer (Contractor) · 2025 — Present</p>
-              <p data-i18n="resume.interfell">Migrated Symfony monolith to Node.js microservices, implementing Hexagonal Architecture, DDD and internal logging SDK.</p>
+              <p class="meta">Backend Engineer (Contractor) · 2025 — Actualidad</p>
+              <ul class="detail-list">
+                <li>Migración de monolito Symfony a arquitectura de microservicios en Node.js.</li>
+                <li>Implementación de Arquitectura Hexagonal y DDD.</li>
+                <li>Desarrollo de SDK interno para logging.</li>
+                <li>Integraciones cloud con AWS (S3, IAM).</li>
+              </ul>
             </div>
+
             <div class="job">
               <h3>AMG</h3>
-              <p class="meta" data-i18n="resume.amgMeta">Full Stack Developer / Technical Lead · 2021 — 2023</p>
-              <p data-i18n="resume.amg">Led a 10-developer team, modernized ERP architecture and delivered real-time systems with WebSockets, Flutter and AWS.</p>
+              <p class="meta">Full Stack Developer / Technical Lead · 2021 — 2023</p>
+              <ul class="detail-list">
+                <li>Liderazgo técnico de equipo de 10 desarrolladores.</li>
+                <li>Migración de sistema monolítico a arquitectura desacoplada.</li>
+                <li>Desarrollo de ERP modular empresarial.</li>
+                <li>Sistema de asistencia en tiempo real con WebSockets + app Flutter con QR.</li>
+                <li>Plataforma de tickets con chat en tiempo real.</li>
+                <li>Backend intensivo con Node.js y Laravel.</li>
+                <li>Infraestructura cloud con AWS (EC2, RDS, CloudWatch).</li>
+              </ul>
             </div>
+
             <div class="job">
               <h3>La Confraternidad del Tenis</h3>
-              <p class="meta" data-i18n="resume.tennisMeta">Full Stack Developer (Freelance)</p>
-              <p data-i18n="resume.tennis">Built end-to-end tournament management platform: architecture, optimized database, CI/CD pipeline and production deployment.</p>
-            </div>
-            <div class="job">
-              <h3 data-i18n="resume.eduTitle">Education & Publications</h3>
-              <p class="meta" data-i18n="resume.eduMeta">Software Engineering Bachelor's Degree</p>
-              <p data-i18n="resume.edu">Co-author of: \"Application of the Few-Shot Learning Method to GPT-3.5\" — CISCI 2024.</p>
+              <p class="meta">Full Stack Developer · Freelance</p>
+              <ul class="detail-list">
+                <li>Desarrollo completo de plataforma para gestión de torneos de tenis.</li>
+                <li>Arquitectura full-stack y base de datos optimizada.</li>
+                <li>Gestión de partidos, jugadores y resultados.</li>
+                <li>Deployment productivo y pipeline CI/CD.</li>
+              </ul>
             </div>
           </div>
-          <a class="primary-link" href="/cv-carolina-villegas.txt" download data-i18n="resume.download">Download full CV</a>
+
+          <div class="stack-grid">
+            <div class="stack-card">
+              <h3>Tecnologías</h3>
+              <ul class="detail-list compact">
+                <li><strong>Backend:</strong> Node.js, NestJS, Express, PHP, Laravel</li>
+                <li><strong>Frontend:</strong> Angular, React, Vue, TypeScript</li>
+                <li><strong>Mobile:</strong> Flutter</li>
+                <li><strong>Cloud:</strong> AWS (Lambda, S3, SQS, SNS, EventBridge, RDS, Aurora, EC2, CloudWatch, IAM), Azure</li>
+                <li><strong>Bases de datos:</strong> MySQL, PostgreSQL, MongoDB, Redis, Redshift</li>
+                <li><strong>Arquitectura:</strong> Microservicios, Serverless, DDD, Hexagonal</li>
+                <li><strong>IA:</strong> GPT, Few-shot Learning, Integraciones LLM</li>
+              </ul>
+            </div>
+            <div class="stack-card">
+              <h3>Educación y Logros</h3>
+              <ul class="detail-list compact">
+                <li>Bachiller en Ingeniería de Software.</li>
+                <li>Coautora del paper: <em>Application of the Few-Shot Learning Method to GPT-3.5</em> — CISCI 2024.</li>
+                <li>Liderazgo de equipos de ingeniería y diseño de sistemas en producción.</li>
+              </ul>
+              <a class="primary-link" href="/cv-carolina-villegas.txt" download data-i18n="resume.download">Descargar CV completo</a>
+            </div>
+          </div>
         </article>
 
         <article class="tab-panel" data-panel="projects">
-          <h2 data-i18n="projects.title">Projects</h2>
+          <h2 data-i18n="projects.title">Proyectos</h2>
           <div class="project-grid">
             <a class="project-card" href="https://finanzas.prittor.com" target="_blank" rel="noreferrer">
               <h3>Finanzas Platform</h3>
-              <p data-i18n="projects.finanzas">Multi-tenant finance app with reconciliation, imports and production CI/CD.</p>
+              <p>Plataforma de finanzas en producción con flujos reales, conciliación e importación.</p>
             </a>
             <a class="project-card" href="https://shop.prittor.com" target="_blank" rel="noreferrer">
               <h3>Nails Ecommerce</h3>
-              <p data-i18n="projects.shop">Conversion-focused storefront for beauty products and services.</p>
+              <p>Ecommerce enfocado en conversión para servicios y productos de belleza.</p>
             </a>
             <a class="project-card" href="https://github.com/Caro2870" target="_blank" rel="noreferrer">
-              <h3>GitHub Portfolio</h3>
-              <p data-i18n="projects.github">Code samples, architecture experiments and real product repositories.</p>
+              <h3>GitHub</h3>
+              <p>Repositorios de backend, cloud, arquitectura e integración de IA.</p>
+            </a>
+            <a class="project-card" href="https://www.prittor.com" target="_blank" rel="noreferrer">
+              <h3>Portafolio Profesional</h3>
+              <p>Sitio personal bilingüe con diseño avanzado, responsive y enfoque de marca profesional.</p>
+            </a>
+            <a class="project-card" href="https://sam.prittor.com" target="_blank" rel="noreferrer">
+              <h3>Tenant Finance Demo</h3>
+              <p>Demo multi-tenant para validar dominio por subdominio, seguridad y escalabilidad.</p>
+            </a>
+            <a class="project-card" href="https://github.com/Caro2870/finanzas" target="_blank" rel="noreferrer">
+              <h3>CI/CD + Infra</h3>
+              <p>Automatización de despliegues con GitHub Actions, Docker Compose y reverse proxy.</p>
             </a>
           </div>
         </article>
 
         <article class="tab-panel" data-panel="contact">
-          <h2 data-i18n="contact.title">Contact</h2>
-          <p data-i18n="contact.body">Open to senior backend/full-stack roles and high-impact freelance collaborations.</p>
+          <h2 data-i18n="contact.title">Contacto</h2>
+          <p>Perú. Disponible para roles Senior Full Stack / Backend, liderazgo técnico y colaboraciones freelance de alto impacto.</p>
           <div class="contact-grid">
-            <a href="mailto:carol.vi28@gmail.com">carol.vi28@gmail.com</a>
+            <a href="mailto:carolina.villegas@email.com">carolina.villegas@email.com</a>
             <a href="https://wa.me/51920236307?text=Hola%20Carolina%2C%20vi%20tu%20portafolio%20y%20quisiera%20hablar%20de%20un%20proyecto." target="_blank" rel="noreferrer">WhatsApp</a>
             <a href="https://github.com/Caro2870" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/carolina-villegas/" target="_blank" rel="noreferrer">LinkedIn</a>
