@@ -270,6 +270,41 @@ article.active { display: block; animation: pageIn 0.28s ease; }
   line-height: 1.62;
 }
 
+.kpi-strip {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.kpi-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(17, 25, 41, 0.75);
+  padding: 12px 10px;
+  text-align: center;
+}
+
+body.light .kpi-card {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.kpi-value {
+  margin: 0;
+  color: var(--accent);
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.kpi-label {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
 .service,
 .timeline,
 .projects { margin-top: 14px; }
@@ -503,5 +538,6 @@ body[data-lang="en"] .lang-en.lang-inline { display: inline; }
   .name { font-size: 36px; }
   .service-list,
   .project-list { grid-template-columns: 1fr; }
+  .kpi-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .navbar-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
