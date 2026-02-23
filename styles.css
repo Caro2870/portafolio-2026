@@ -367,8 +367,12 @@ body.light .timeline-section-icon {
 .timeline-item span {
   display: block;
   margin: 6px 0;
-  color: var(--accent);
+  color: var(--text);
   font-weight: 700;
+}
+
+.resume .timeline-item-title {
+  color: var(--accent);
 }
 
 .filter-list { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
