@@ -201,6 +201,14 @@ body.light .contact-item-direct { background: rgba(255, 255, 255, 0.86); }
   font-size: 14px;
 }
 
+body[data-lang="es"] .download-en {
+  display: none !important;
+}
+
+body[data-lang="en"] .download-es {
+  display: none !important;
+}
+
 .main-content { padding: 12px; }
 
 .navbar {
