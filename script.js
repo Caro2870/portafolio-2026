@@ -1,6 +1,6 @@
 const I18N = {
   en: {
-    "left.role": "Full Stack Engineer",
+    "left.role": "Senior Full Stack Engineer | Cloud & AI Architect",
     "left.resume": "Download Resume",
     "left.linkedin": "LinkedIn Profile",
     "nav.about": "About",
@@ -12,27 +12,40 @@ const I18N = {
     "nav.themeDark": "Theme: Dark",
     "about.title": "About Me",
     "about.p1":
-      "Full Stack Engineer with 5 years of production experience building scalable systems across backend, frontend, cloud and AI.",
+      "Software Engineer with 5+ years of experience building scalable full-stack solutions in production.",
     "about.p2":
-      "I focus on solving business problems with robust architecture, clear technical decisions and production-first delivery.",
-    "about.f1t": "Backend Engineering",
-    "about.f1d": "APIs, distributed systems, performance and maintainable services.",
-    "about.f2t": "Cloud + DevOps",
-    "about.f2d": "AWS/Azure deployments, CI/CD and reliable operations in production.",
+      "Specialized in legacy modernization, distributed architectures, cloud computing and AI integration with real business impact.",
+    "about.f1t": "Architecture & Backend",
+    "about.f1d": "Node.js, NestJS, Laravel, DDD/Hexagonal and high-performance services.",
+    "about.f2t": "Cloud, Data & AI",
+    "about.f2d": "AWS/Azure, Redis, Redshift and secure GPT integrations for enterprise products.",
     "resume.title": "Resume",
-    "resume.visma": "Serverless architecture, AI integration and Redshift-based analytics optimization.",
-    "resume.interfell": "Symfony monolith migration to Node.js microservices with DDD + Hexagonal.",
-    "resume.amg": "Led a 10-dev team and modernized ERP architecture with real-time systems.",
-    "resume.download": "Download full resume",
+    "resume.vismaMeta": "Senior Full Stack Engineer · 2024 — Present",
+    "resume.visma":
+      "Designed AI-driven action plans (GPT-3.5/GPT-4o-mini), optimized backend with Redis and query tuning, and migrated analytics workloads to Redshift.",
+    "resume.interfellMeta": "Backend Engineer (Contractor) · 2025 — Present",
+    "resume.interfell":
+      "Migrated Symfony monolith to Node.js microservices, implementing Hexagonal Architecture, DDD and internal logging SDK.",
+    "resume.amgMeta": "Full Stack Developer / Technical Lead · 2021 — 2023",
+    "resume.amg":
+      "Led a 10-developer team, modernized ERP architecture and delivered real-time systems with WebSockets, Flutter and AWS.",
+    "resume.tennisMeta": "Full Stack Developer (Freelance)",
+    "resume.tennis":
+      "Built end-to-end tournament management platform: architecture, optimized database, CI/CD pipeline and production deployment.",
+    "resume.eduTitle": "Education & Publications",
+    "resume.eduMeta": "Software Engineering Bachelor's Degree",
+    "resume.edu":
+      "Co-author of: \"Application of the Few-Shot Learning Method to GPT-3.5\" — CISCI 2024.",
+    "resume.download": "Download full CV",
     "projects.title": "Projects",
-    "projects.finanzas": "Multi-tenant finance app with reconciliation, imports and production CI/CD.",
-    "projects.shop": "Conversion-focused storefront for beauty products and services.",
-    "projects.github": "Code samples, architecture experiments and real product repositories.",
+    "projects.finanzas": "Production finance platform with multi-tenant architecture, reconciliation and secure deployment practices.",
+    "projects.shop": "Ecommerce MVP focused on conversion, clean UX and operational simplicity.",
+    "projects.github": "Repositories with full-stack, backend, cloud and AI-focused implementations.",
     "contact.title": "Contact",
-    "contact.body": "Open to senior backend/full-stack roles and high-impact freelance collaborations."
+    "contact.body": "Based in Peru. Open to senior full-stack/backend roles, architecture leadership and high-impact freelance projects."
   },
   es: {
-    "left.role": "Ingeniera Full Stack",
+    "left.role": "Senior Full Stack Engineer | Cloud & AI Architect",
     "left.resume": "Descargar CV",
     "left.linkedin": "Perfil de LinkedIn",
     "nav.about": "Sobre mí",
@@ -44,24 +57,37 @@ const I18N = {
     "nav.themeDark": "Tema: Oscuro",
     "about.title": "Sobre mí",
     "about.p1":
-      "Ingeniera Full Stack con 5 años de experiencia en producción construyendo sistemas escalables en backend, frontend, cloud e IA.",
+      "Ingeniera de Software con más de 5 años de experiencia diseñando y construyendo soluciones Full Stack escalables en producción.",
     "about.p2":
-      "Me enfoco en resolver problemas de negocio con arquitectura sólida, decisiones técnicas claras y entrega orientada a producción.",
-    "about.f1t": "Ingeniería Backend",
-    "about.f1d": "APIs, sistemas distribuidos, performance y servicios mantenibles.",
-    "about.f2t": "Cloud + DevOps",
-    "about.f2d": "Despliegues en AWS/Azure, CI/CD y operación confiable en producción.",
+      "Especializada en modernización de sistemas legacy, arquitecturas distribuidas, cloud computing e integración de IA con impacto real en negocio.",
+    "about.f1t": "Arquitectura + Backend",
+    "about.f1d": "Node.js, NestJS, Laravel, DDD/Hexagonal y servicios de alto rendimiento.",
+    "about.f2t": "Cloud, Datos e IA",
+    "about.f2d": "AWS/Azure, Redis, Redshift e integraciones seguras de GPT para productos empresariales.",
     "resume.title": "Resumen",
-    "resume.visma": "Arquitectura serverless, integración de IA y optimización analítica con Redshift.",
-    "resume.interfell": "Migración de monolito Symfony a microservicios Node.js con DDD + Hexagonal.",
-    "resume.amg": "Lideré un equipo de 10 devs y modernicé arquitectura ERP con sistemas en tiempo real.",
+    "resume.vismaMeta": "Senior Full Stack Engineer · 2024 — Actualidad",
+    "resume.visma":
+      "Desarrollo de planes de acción con IA (GPT-3.5/GPT-4o-mini), optimización backend con Redis y tuning de queries, y migración analítica a Redshift.",
+    "resume.interfellMeta": "Backend Engineer (Contractor) · 2025 — Actualidad",
+    "resume.interfell":
+      "Migración de monolito Symfony a microservicios Node.js, implementando Arquitectura Hexagonal, DDD y SDK interno de logging.",
+    "resume.amgMeta": "Full Stack Developer / Technical Lead · 2021 — 2023",
+    "resume.amg":
+      "Lideré equipo de 10 desarrolladores, modernicé arquitectura ERP y entregué sistemas en tiempo real con WebSockets, Flutter y AWS.",
+    "resume.tennisMeta": "Full Stack Developer (Freelance)",
+    "resume.tennis":
+      "Desarrollo end-to-end de plataforma de torneos: arquitectura, base de datos optimizada, pipeline CI/CD y despliegue productivo.",
+    "resume.eduTitle": "Educación y Publicaciones",
+    "resume.eduMeta": "Bachiller en Ingeniería de Software",
+    "resume.edu":
+      "Coautora del paper: \"Application of the Few-Shot Learning Method to GPT-3.5\" — CISCI 2024.",
     "resume.download": "Descargar CV completo",
     "projects.title": "Proyectos",
-    "projects.finanzas": "App de finanzas multi-tenant con conciliación, importaciones y CI/CD en producción.",
-    "projects.shop": "Tienda optimizada para conversión de servicios y productos de belleza.",
-    "projects.github": "Muestras de código, experimentos de arquitectura y repositorios reales.",
+    "projects.finanzas": "Plataforma de finanzas en producción con arquitectura multi-tenant, conciliación y despliegue seguro.",
+    "projects.shop": "MVP ecommerce enfocado en conversión, UX limpia y operación simple.",
+    "projects.github": "Repositorios con implementaciones Full Stack, backend, cloud e IA.",
     "contact.title": "Contacto",
-    "contact.body": "Disponible para roles senior backend/full-stack y colaboraciones freelance de alto impacto."
+    "contact.body": "Basada en Perú. Disponible para roles senior full-stack/backend, liderazgo de arquitectura y colaboraciones freelance de alto impacto."
   }
 };
 

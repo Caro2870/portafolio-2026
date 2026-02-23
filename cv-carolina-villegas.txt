@@ -1,11 +1,11 @@
 Carolina Villegas
-Full Stack Engineer
+Senior Full Stack Engineer | Cloud & AI Architect
 Peru
 Email: carol.vi28@gmail.com
 GitHub: https://github.com/Caro2870
 
 Professional Summary
-Full Stack Engineer with 5 years of production experience building scalable systems across backend, frontend, cloud infrastructure and AI integration.
+Software Engineer with 5+ years of production experience designing and building scalable full-stack systems. Specialized in legacy modernization, distributed architectures, cloud computing and secure AI integration.
 
 Specialization
 - Full Stack Development
@@ -16,19 +16,29 @@ Specialization
 
 Experience
 Visma Latam — Senior Full Stack Engineer (2024 — Present)
-- Serverless architectures for HR metrics processing
-- Generative AI integration in enterprise platforms
-- Redshift migration and backend performance optimization
+- AI action-plan engine using GPT-3.5 Turbo and GPT-4o-mini with few-shot learning on Azure
+- Full stack delivery with React, Laravel and MySQL
+- Real-time notifications via WebSockets
+- Backend optimization through query refactoring, indexing and algorithm tuning
+- Redis implementation for critical data caching
+- Migration of analytics workloads to Amazon Redshift
+- Corporate social platform development (Angular + NestJS + AWS)
+- Secure iframe integration with token validation and parent-child communication
+- Legacy platform migration to Angular microfrontends with cross-platform authentication
 
 Interfell — Backend Engineer (2025 — Present)
 - Symfony monolith to Node.js microservices migration
-- DDD + Hexagonal architecture implementation
-- API development and logging SDK design
+- Hexagonal architecture and DDD implementation
+- Internal logging SDK development
+- AWS integrations (S3, IAM)
 
 AMG — Full Stack Developer / Project Lead (2021 — 2023)
 - Led team of 10 engineers
 - ERP modernization and modular architecture migration
-- Real-time systems and backend API development
+- Real-time attendance system with WebSockets and Flutter QR mobile app
+- Ticketing platform with real-time chat
+- Intensive backend development with Node.js and Laravel
+- AWS infrastructure (EC2, RDS, CloudWatch)
 
 La Confraternidad del Tenis — Full Stack Developer (2024 — Present)
 - End-to-end architecture and implementation
@@ -43,6 +53,12 @@ Databases: MySQL, PostgreSQL, MongoDB, Redis, Aurora, Redshift
 Cloud: AWS (Lambda, S3, SQS, SNS, EventBridge, EC2, RDS, CloudWatch, IAM), Azure OpenAI
 Architecture: Microservices, Serverless, DDD, Hexagonal, Event-driven
 DevOps: Docker, CI/CD, Monitoring, Deployment pipelines
+
+Education
+Bachelor's Degree in Software Engineering
+
+Publication
+Co-author: "Application of the Few-Shot Learning Method to GPT-3.5" — CISCI 2024
 
 Achievements
 - Published research paper at CISCI 2024
