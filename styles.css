@@ -90,6 +90,7 @@ main {
   font-size: 12px;
   font-weight: 700;
   color: var(--muted);
+  text-align: center;
   border: 1px solid var(--line-soft);
   background: rgba(23, 34, 55, 0.72);
   border-radius: 999px;
@@ -100,6 +101,7 @@ body.light .title { background: rgba(198, 150, 22, 0.1); }
 
 .hero-tagline {
   margin: 2px 0 10px;
+  max-width: 230px;
   text-align: center;
   font-size: 12px;
   line-height: 1.45;
