@@ -1,0 +1,95 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1754 >>
+stream
+BT
+/F1 10 Tf
+50 790 Td
+(Carolina Villegas) Tj
+0 -15 Td
+(Senior Full Stack Engineer | Cloud & AI Architect) Tj
+0 -15 Td
+(Peru | carol.vi28@gmail.com | +51 920 236 307) Tj
+0 -15 Td
+0 -15 Td
+(PROFESSIONAL SUMMARY) Tj
+0 -15 Td
+(Software Engineer with 5+ years building scalable Full Stack systems in production.) Tj
+0 -15 Td
+(Specialized in legacy modernization, distributed architectures, cloud and AI integration.) Tj
+0 -15 Td
+0 -15 Td
+(EXPERIENCE) Tj
+0 -15 Td
+(Visma Latam - Senior Full Stack Engineer \(2024-Present\)) Tj
+0 -15 Td
+(- AI action plans with GPT-3.5/GPT-4o-mini on Azure \(few-shot\).) Tj
+0 -15 Td
+(- Full stack: React, Laravel, MySQL, WebSockets.) Tj
+0 -15 Td
+(- Backend optimization + Redis caching + Redshift analytics migration.) Tj
+0 -15 Td
+0 -15 Td
+(Interfell - Backend Engineer \(Contractor\)) Tj
+0 -15 Td
+(- Symfony monolith to Node.js microservices.) Tj
+0 -15 Td
+(- Hexagonal Architecture, DDD, logging SDK, AWS S3/IAM.) Tj
+0 -15 Td
+0 -15 Td
+(AMG - Full Stack Developer / Technical Lead \(2021-2023\)) Tj
+0 -15 Td
+(- Led a team of 10 developers.) Tj
+0 -15 Td
+(- ERP modernization, real-time systems, AWS EC2/RDS/CloudWatch.) Tj
+0 -15 Td
+0 -15 Td
+(TECHNICAL SKILLS) Tj
+0 -15 Td
+(Backend: Node.js, NestJS, Express, PHP, Laravel) Tj
+0 -15 Td
+(Frontend: Angular, React, Vue, TypeScript) Tj
+0 -15 Td
+(Mobile: Flutter) Tj
+0 -15 Td
+(Cloud: AWS, Azure) Tj
+0 -15 Td
+(Databases: MySQL, PostgreSQL, MongoDB, Redis, Redshift) Tj
+0 -15 Td
+(Architecture: Microservices, Serverless, DDD, Hexagonal) Tj
+0 -15 Td
+(AI: GPT integrations, few-shot learning, LLM workflows) Tj
+0 -15 Td
+0 -15 Td
+(Education: Bachelor in Software Engineering) Tj
+0 -15 Td
+(Publication: Application of the Few-Shot Learning Method to GPT-3.5 \(CISCI 2024\)) Tj
+0 -15 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2116
+%%EOF
