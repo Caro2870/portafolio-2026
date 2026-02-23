@@ -7,6 +7,9 @@ COPY robots.txt /usr/share/nginx/html/robots.txt
 COPY sitemap.xml /usr/share/nginx/html/sitemap.xml
 COPY og-image.svg /usr/share/nginx/html/og-image.svg
 COPY favicon.svg /usr/share/nginx/html/favicon.svg
-COPY cv-carolina-villegas.txt /usr/share/nginx/html/cv-carolina-villegas.txt
+COPY Carolina_Villegas_CV_ES.docx /usr/share/nginx/html/Carolina_Villegas_CV_ES.docx
+COPY Carolina_Villegas_CV_ES.pdf /usr/share/nginx/html/Carolina_Villegas_CV_ES.pdf
+COPY Carolina_Villegas_CV_EN.docx /usr/share/nginx/html/Carolina_Villegas_CV_EN.docx
+COPY Carolina_Villegas_CV_EN.pdf /usr/share/nginx/html/Carolina_Villegas_CV_EN.pdf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
