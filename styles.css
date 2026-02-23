@@ -364,7 +364,7 @@ body.light .timeline-section-icon {
   transform: translateY(0);
 }
 
-.timeline-item span {
+.timeline-item > span {
   display: block;
   margin: 6px 0;
   color: var(--text);
