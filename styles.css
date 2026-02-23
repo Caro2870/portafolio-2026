@@ -148,6 +148,11 @@ body.light .contact-item-direct { background: rgba(255, 255, 255, 0.86); }
   font-weight: 800;
 }
 
+.icon-box i {
+  font-size: 19px;
+  line-height: 1;
+}
+
 .contact-title {
   margin: 0;
   font-size: 11px;
@@ -301,6 +306,11 @@ article.active { display: block; animation: pageIn 0.28s ease; }
   place-items: center;
   flex: 0 0 auto;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03), 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.timeline-section-icon i {
+  font-size: 20px;
+  line-height: 1;
 }
 
 body.light .timeline-section-icon {
