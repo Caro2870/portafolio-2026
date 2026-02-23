@@ -10,6 +10,33 @@ if (sidebar && sidebarBtn) {
 const navLinks = document.querySelectorAll('[data-nav-link]');
 const pages = document.querySelectorAll('[data-page]');
 
+let timelineObserver = null;
+
+function setupTimelineReveal() {
+  if (timelineObserver) {
+    timelineObserver.disconnect();
+  }
+
+  timelineObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          timelineObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2, rootMargin: '0px 0px -8% 0px' }
+  );
+
+  const activePage = document.querySelector('[data-page].active');
+  if (!activePage) return;
+  activePage.querySelectorAll('.timeline-item').forEach((item) => {
+    item.classList.remove('in-view');
+    timelineObserver.observe(item);
+  });
+}
+
 navLinks.forEach((btn) => {
   btn.addEventListener('click', () => {
     const target = btn.getAttribute('data-nav-link');
@@ -17,6 +44,7 @@ navLinks.forEach((btn) => {
     pages.forEach((page) => page.classList.remove('active'));
     btn.classList.add('active');
     document.querySelector(`[data-page="${target}"]`)?.classList.add('active');
+    setupTimelineReveal();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
@@ -96,3 +124,5 @@ if (storedLang === 'es' || storedLang === 'en') {
   const browserLang = String(navigator.language || '').toLowerCase();
   applyLang(browserLang.startsWith('es') ? 'es' : 'en');
 }
+
+setupTimelineReveal();
