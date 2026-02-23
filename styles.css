@@ -98,6 +98,14 @@ main {
 
 body.light .title { background: rgba(198, 150, 22, 0.1); }
 
+.hero-tagline {
+  margin: 2px 0 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
 .info_more-btn {
   width: 100%;
   border: 1px solid var(--line-soft);
@@ -288,6 +296,14 @@ article.active { display: block; animation: pageIn 0.28s ease; }
 .service-item { padding: 14px; }
 .service-item-title { margin-bottom: 6px; }
 .service-item-text { margin: 0; color: var(--muted); font-size: 14px; }
+
+.impact-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  display: grid;
+  gap: 8px;
+}
 
 .title-wrapper {
   margin-bottom: 10px;
