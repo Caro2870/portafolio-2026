@@ -184,6 +184,23 @@ body.light .contact-item-direct { background: rgba(255, 255, 255, 0.86); }
   display: block;
 }
 
+.download-links {
+  display: grid;
+  gap: 4px;
+}
+
+.download-link {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.download-link i {
+  color: var(--accent);
+  font-size: 14px;
+}
+
 .main-content { padding: 12px; }
 
 .navbar {
