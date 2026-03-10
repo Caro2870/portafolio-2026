@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: portafolio-app
+    restart: unless-stopped
+    networks:
+      - prittor-proxy
+
+networks:
+  prittor-proxy:
+    external: true
