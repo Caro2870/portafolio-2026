@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=2" />
   </head>
   <body data-lang="es">
     <main>
@@ -300,6 +300,7 @@
             </div>
             <ol class="timeline-list stagger">
               <li class="timeline-item">
+                <h4 class="h4 timeline-item-title"><span class="lang-inline lang-es">Universidad Peruana de Ciencias Aplicadas (UPC)</span><span class="lang-inline lang-en">Universidad Peruana de Ciencias Aplicadas (UPC)</span></h4>
                 <p class="timeline-text"><span class="lang-inline lang-es"><strong>Bachiller en Ingeniería de Software</strong></span><span class="lang-inline lang-en"><strong>Bachelor in Software Engineering</strong></span></p>
                 <p class="timeline-text"><span class="lang-inline lang-es">CISCI 2024 — Coautora: Application of the Few-Shot Learning Method to GPT-3.5</span><span class="lang-inline lang-en">CISCI 2024 — Co-author: Application of the Few-Shot Learning Method to GPT-3.5</span></p>
               </li>
@@ -318,30 +319,54 @@
             </ul>
 
             <ul class="project-list stagger">
-              <li class="project-item active" data-filter-item data-category="fullstack cloud">
-                <a href="https://finanzas.prittor.com" target="_blank" rel="noreferrer">
+              <li class="project-item active" data-filter-item data-category="fullstack cloud ai">
+                <div style="padding:14px;min-height:130px;">
                   <h3 class="project-title"><span class="lang-inline lang-es">People Analytics con IA - Visma</span><span class="lang-inline lang-en">AI People Analytics - Visma</span></h3>
                   <p class="project-category"><span class="lang-inline lang-es">Motor de generación de planes de acción para líderes basado en métricas de clima y desempeño. Integración con modelos GPT en Azure.</span><span class="lang-inline lang-en">Action-plan generation engine for leaders based on climate and performance metrics, integrated with GPT models on Azure.</span></p>
                   <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Azure, GPT-3.5, GPT-4o-mini, React, Laravel</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Azure, GPT-3.5, GPT-4o-mini, React, Laravel</span></p>
                   <p class="project-category"><span class="lang-inline lang-es"><strong>Impacto:</strong> Generación por colaborador, equipo y área con contexto seguro.</span><span class="lang-inline lang-en"><strong>Impact:</strong> Personalized generation by employee, team, and area with secure context handling.</span></p>
+                </div>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="fullstack cloud">
+                <div style="padding:14px;min-height:130px;">
+                  <h3 class="project-title"><span class="lang-inline lang-es">Automatización ERP y Credit Score - AMG</span><span class="lang-inline lang-en">ERP &amp; Credit Score Automation - AMG</span></h3>
+                  <p class="project-category"><span class="lang-inline lang-es">Evolución de ERP modular con digitalización de procesos manuales y sistema automatizado de cartas/cheques integrado con bureaus (Experian, TransUnion).</span><span class="lang-inline lang-en">Evolution of a modular ERP with manual process digitization and automated letter/check generation integrated with bureaus (Experian, TransUnion).</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Laravel, Vue, MySQL, WebSockets, AWS</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Laravel, Vue, MySQL, WebSockets, AWS</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Impacto:</strong> 300 usuarios concurrentes y mayor eficiencia operativa.</span><span class="lang-inline lang-en"><strong>Impact:</strong> 300 concurrent users and increased operational efficiency.</span></p>
+                </div>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="fullstack cloud">
+                <div style="padding:14px;min-height:130px;">
+                  <h3 class="project-title"><span class="lang-inline lang-es">Performance y Microservicios - Interfell</span><span class="lang-inline lang-en">Performance &amp; Microservices - Interfell</span></h3>
+                  <p class="project-category"><span class="lang-inline lang-es">Migración de monolito legacy a microservicios con Node.js empleando Arquitectura Hexagonal y DDD.</span><span class="lang-inline lang-en">Migration from legacy monolith to Node.js microservices using Hexagonal Architecture and DDD.</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Node.js, DDD, Microservicios</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Node.js, DDD, Microservices</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Impacto:</strong> Código desacoplado, más estable y mantenible.</span><span class="lang-inline lang-en"><strong>Impact:</strong> Decoupled codebase, higher stability, and better maintainability.</span></p>
+                </div>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="fullstack cloud">
+                <a href="https://finanzas.prittor.com" target="_blank" rel="noreferrer">
+                  <h3 class="project-title"><span class="lang-inline lang-es">Finanzas — SaaS Multi-tenant</span><span class="lang-inline lang-en">Finanzas — Multi-tenant SaaS</span></h3>
+                  <p class="project-category"><span class="lang-inline lang-es">Plataforma de gestión financiera personal multi-tenant con subdominio por usuario, autenticación y panel de gastos e ingresos. Deployada en producción.</span><span class="lang-inline lang-en">Multi-tenant personal finance SaaS with per-user subdomain routing, authentication, and income/expense dashboard. Live in production.</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Next.js, Node.js, MySQL, Docker, Caddy</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Next.js, Node.js, MySQL, Docker, Caddy</span></p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="fullstack ai">
+                <a href="https://atiende.prittor.com" target="_blank" rel="noreferrer">
+                  <h3 class="project-title"><span class="lang-inline lang-es">Atiende — Chatbot SaaS para WhatsApp</span><span class="lang-inline lang-en">Atiende — WhatsApp Chatbot SaaS</span></h3>
+                  <p class="project-category"><span class="lang-inline lang-es">Landing page + demo interactiva de chatbot SaaS para negocios limeños, simulando atención automática por WhatsApp para restaurantes, clínicas y salones de belleza.</span><span class="lang-inline lang-en">Landing page + interactive chatbot demo for a WhatsApp SaaS aimed at local businesses — restaurants, clinics, and beauty salons.</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Next.js, Docker, Caddy</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Next.js, Docker, Caddy</span></p>
                 </a>
               </li>
 
               <li class="project-item active" data-filter-item data-category="fullstack">
                 <a href="https://shop.prittor.com" target="_blank" rel="noreferrer">
-                  <h3 class="project-title"><span class="lang-inline lang-es">Automatización ERP y Credit Score - AMG</span><span class="lang-inline lang-en">ERP &amp; Credit Score Automation - AMG</span></h3>
-                  <p class="project-category"><span class="lang-inline lang-es">Evolución de ERP modular con digitalización de procesos manuales y sistema automatizado de cartas/cheques integrado con bureaus (Experian, TransUnion).</span><span class="lang-inline lang-en">Evolution of a modular ERP with manual process digitization and automated letter/check generation integrated with bureaus (Experian, TransUnion).</span></p>
-                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Laravel, Vue, MySQL, WebSockets, AWS</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Laravel, Vue, MySQL, WebSockets, AWS</span></p>
-                  <p class="project-category"><span class="lang-inline lang-es"><strong>Impacto:</strong> 300 usuarios concurrentes y mayor eficiencia operativa.</span><span class="lang-inline lang-en"><strong>Impact:</strong> 300 concurrent users and increased operational efficiency.</span></p>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="cloud ai">
-                <a href="https://github.com/Caro2870/finanzas" target="_blank" rel="noreferrer">
-                  <h3 class="project-title"><span class="lang-inline lang-es">Performance y Microservicios - Interfell</span><span class="lang-inline lang-en">Performance &amp; Microservices - Interfell</span></h3>
-                  <p class="project-category"><span class="lang-inline lang-es">Migración de monolito legacy a microservicios con Node.js empleando Arquitectura Hexagonal y DDD.</span><span class="lang-inline lang-en">Migration from legacy monolith to Node.js microservices using Hexagonal Architecture and DDD.</span></p>
-                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Node.js, DDD, Microservicios</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Node.js, DDD, Microservices</span></p>
-                  <p class="project-category"><span class="lang-inline lang-es"><strong>Impacto:</strong> Código desacoplado, más estable y mantenible.</span><span class="lang-inline lang-en"><strong>Impact:</strong> Decoupled codebase, higher stability, and better maintainability.</span></p>
+                  <h3 class="project-title"><span class="lang-inline lang-es">Jessica Nails — Tienda Online</span><span class="lang-inline lang-en">Jessica Nails — Online Store</span></h3>
+                  <p class="project-category"><span class="lang-inline lang-es">E-commerce completo para negocio de nail art, con catálogo de productos, carrito y flujo de compra. Deployado en producción.</span><span class="lang-inline lang-en">Full e-commerce store for a nail art business, with product catalog, cart and checkout flow. Live in production.</span></p>
+                  <p class="project-category"><span class="lang-inline lang-es"><strong>Tecnologías:</strong> Next.js, Docker, Caddy</span><span class="lang-inline lang-en"><strong>Technologies:</strong> Next.js, Docker, Caddy</span></p>
                 </a>
               </li>
             </ul>
@@ -368,14 +393,14 @@
 
             <h3 class="h3 form-title"><span class="lang-inline lang-es">Redes</span><span class="lang-inline lang-en">Socials</span></h3>
             <ul class="social-list-direct">
-              <li class="social-item-direct"><a href="https://www.linkedin.com/in/carolina-villegas/" target="_blank" rel="noreferrer" class="social-link-direct"><span>LinkedIn</span></a></li>
-              <li class="social-item-direct"><a href="https://github.com/Caro2870" target="_blank" rel="noreferrer" class="social-link-direct"><span>GitHub</span></a></li>
+              <li class="social-item-direct"><a href="https://www.linkedin.com/in/carolina-villegas/" target="_blank" rel="noreferrer" class="social-link-direct"><i class="bi bi-linkedin" aria-hidden="true" style="margin-right:10px;color:var(--accent);"></i><span>LinkedIn</span></a></li>
+              <li class="social-item-direct"><a href="https://github.com/Caro2870" target="_blank" rel="noreferrer" class="social-link-direct"><i class="bi bi-github" aria-hidden="true" style="margin-right:10px;color:var(--accent);"></i><span>GitHub</span></a></li>
             </ul>
           </section>
         </article>
       </div>
     </main>
 
-    <script src="/script.js"></script>
+    <script src="/script.js?v=2"></script>
   </body>
 </html>
